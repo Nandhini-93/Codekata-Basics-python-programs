@@ -1,0 +1,12 @@
+A,B,C=(int(num) for num in input().split())
+if ((A*A)+(B*B)==C*C):
+  print('yes')
+else:
+  print('no')
+
+Sample Testcase :
+INPUT
+3 4 5
+
+OUTPUT
+yes
