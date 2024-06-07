@@ -1,0 +1,14 @@
+n,k=map(int,input().split())
+b=map(int,input().split()[:n])
+b=list(b)
+count=-1
+for i in b:
+    if(i==k):
+        count+=1
+print(count)
+
+INPUT
+6 2
+1 2 3 5 7 8
+OUTPUT
+0
