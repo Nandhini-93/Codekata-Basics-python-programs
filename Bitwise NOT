@@ -1,0 +1,10 @@
+a = int(input())
+b = ~a
+print(b)
+
+Sample Testcase :
+INPUT
+5
+
+OUTPUT
+-6
