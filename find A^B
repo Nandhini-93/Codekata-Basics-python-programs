@@ -1,0 +1,11 @@
+import math
+A,B=(int(num) for num in input().split())
+result=math.pow(A,B)
+print(round(result))
+
+Sample Testcase :
+INPUT
+3 4
+
+OUTPUT
+81
